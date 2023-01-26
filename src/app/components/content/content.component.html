@@ -1,0 +1,10 @@
+<div class="contenMain">
+  <div class="toolCard">
+    <app-tool-card (refreshContent)="refreshDataSupabase()" [dataCard]="dataCardPadre" (filterContent)="searchData($event)"></app-tool-card>
+  </div>
+  <div class="cardMain">
+    <div *ngFor="let link of links|filter:searchFilter">
+        <app-card [card]="link" (refreshContent)="refreshDataSupabase()" (dataCard)="dataCardModify($event)"></app-card>
+    </div>
+  </div>
+</div>

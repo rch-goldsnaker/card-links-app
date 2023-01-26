@@ -1,0 +1,30 @@
+<div class="card">
+  <div class="cardTitle">
+    <h1>{{ card.title }}</h1>
+  </div>
+  <div class="cardContent">
+    <a href="{{ card.link }}" target="blank">
+      <span class="material-symbols-outlined icon">{{ card.icon }}</span>
+    </a>
+    <h2>{{ card.description }}</h2>
+  </div>
+  <div class="cardFooter">
+    <button
+      mat-mini-fab
+      color="accent"
+      aria-label="Example icon button with a plus one icon"
+      class="miniIconEdit"
+      (click)="updateCard(card.id,card.title,card.description,card.icon,card.link)"
+    >
+      <mat-icon>edit</mat-icon>
+    </button>
+    <button
+      mat-mini-fab
+      color="warn"
+      aria-label="Example icon button with a filter list icon"
+      (click)="deleteCard(card.id)"
+    >
+      <mat-icon>delete</mat-icon>
+    </button>
+  </div>
+</div>

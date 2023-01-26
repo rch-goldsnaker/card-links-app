@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Pexels",
+    "description": "fotos videos free",
+    "icon": "videocam",
+    "link": "https://www.pexels.com"
+  },
+  {
+    "title": "Pixlr",
+    "description": "Editor Photo Online",
+    "icon": "brush",
+    "link": "https://pixlr.com"
+  },
+  {
+    "title": "Excalidraw",
+    "description": "Board Online",
+    "icon": "draw",
+    "link": "https://excalidraw.com/"
+  },
+  {
+    "title": "CssGradient",
+    "description": "css gradient",
+    "icon": "gradient",
+    "link": "https://cssgradient.io/"
+  },
+  {
+    "title": "Google Icons",
+    "description": "Icons",
+    "icon": "favorite",
+    "link": "https://fonts.google.com/icons"
+  }
+]
