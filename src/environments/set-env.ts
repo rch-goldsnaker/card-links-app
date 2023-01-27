@@ -11,8 +11,8 @@ const setEnv = () => {
   });
   // `environment.ts` file structure
   const envConfigFile = `export const environment = {
-  supabaseUrl: '${process.env.SUPABASE_URL}',
-  supabaseKey: '${process.env.SUPABASE_KEY}',
+  supabaseUrl: '${process.env["SUPABASE_URL"]}',
+  supabaseKey: '${process.env["SUPABASE_KEY"]}',
   appVersion: '${appVersion}',
   production: true,
 };
