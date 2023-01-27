@@ -8,6 +8,7 @@ import {
   User,
 } from '@supabase/supabase-js';
 // import { environment } from '../../environments/environments';
+import { environment } from '../../environments/environment';
 // import { Database } from 'src/schema'
 
 export interface Profile {
