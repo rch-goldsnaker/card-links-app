@@ -1,9 +1,9 @@
 .contenMain{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding-top: 10px;
+  height: 800px;
 }
 
 .cardMain{

@@ -32,7 +32,9 @@ export class ToolCardComponent implements OnInit {
     });
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.statusSendButton= 'Add';
+  }
 
   ngOnChanges(changes: SimpleChanges) {
     this.modiFingData = changes['dataCard'].currentValue;
