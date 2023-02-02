@@ -34,6 +34,7 @@ export class ToolCardComponent implements OnInit {
 
   ngOnInit(): void {
     this.statusSendButton= 'Add';
+    this.isModifing=false;
   }
 
   ngOnChanges(changes: SimpleChanges) {

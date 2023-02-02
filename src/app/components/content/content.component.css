@@ -22,7 +22,7 @@
 @media screen and (min-width: 480px) {
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 1080px) {
   .contenMain {
     display: flex;
     flex-direction: column;

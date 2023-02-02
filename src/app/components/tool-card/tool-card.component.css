@@ -47,9 +47,10 @@
 /* ================== Responsive ================== */
 
 @media screen and (min-width: 480px) {
+
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 1080px) {
   .addInput {
     width: 100%;
     display: flex;
