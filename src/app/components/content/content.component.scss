@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding-top: 10px;
+  height: 800px;
 }
 
 .cardMain {
@@ -23,11 +24,4 @@
 }
 
 @media screen and (min-width: 1080px) {
-  .contenMain {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 10px;
-    height: 800px;
-  }
 }

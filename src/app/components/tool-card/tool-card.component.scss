@@ -1,6 +1,7 @@
 .toolCard {
+  margin: 0 auto;
   display: flex;
-  width: 100%;
+  width: 85%;
   flex-direction: column;
 
   justify-content: center;
@@ -29,6 +30,7 @@
   flex-direction: column;
   width: 100%;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .input {

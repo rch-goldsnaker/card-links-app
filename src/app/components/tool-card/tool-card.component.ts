@@ -5,7 +5,7 @@ import { SupabaseService } from 'src/app/services/supabase.service';
 @Component({
   selector: 'app-tool-card',
   templateUrl: './tool-card.component.html',
-  styleUrls: ['./tool-card.component.css'],
+  styleUrls: ['./tool-card.component.scss'],
 })
 export class ToolCardComponent implements OnInit {
   form: FormGroup;
