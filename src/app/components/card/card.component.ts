@@ -15,6 +15,8 @@ export class CardComponent {
   @Output() refreshContent: EventEmitter<boolean>;
   @Output() dataCard: EventEmitter<any>;
 
+  showButtons: boolean= true;
+
   constructor(
     private readonly supabase: SupabaseService,
     public dialog: MatDialog

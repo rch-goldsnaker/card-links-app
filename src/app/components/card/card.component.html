@@ -23,6 +23,7 @@
       color="warn"
       aria-label="Example icon button with a filter list icon"
       (click)="deleteCard(card.id)"
+      [disabled]="showButtons"
     >
       <mat-icon>delete</mat-icon>
     </button>
